@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding: 0;
+}
+header{
+    font-family: "Helvetica Neue";
+    padding-inline:8%;
+    background-color:#333;
+}
+/* Style pour l'élément actif */
+.nav-link.active.custom-active {
+    background-color: var(--bs-secondary); 
+    color: white;
+}
+  
+  /* Effet survol pour tous les liens */
+.nav-link.custom-hover:hover {
+    color: white; 
+}
+  
+  /* Supprime la couleur bleue par défaut de Bootstrap */
+.nav-link.active {
+    color: white ;
+    background-color: var(--bs-secondary) ;
+}
+main{
+    padding-inline:7%;
+}
+.dropdown-item:hover {
+    background-color:grey; /* Supprime le changement de fond */
+    color: inherit; /* Garde la couleur du texte inchangée */
+  }
+.custom-centered{
+    padding-top:15%; 
+}
